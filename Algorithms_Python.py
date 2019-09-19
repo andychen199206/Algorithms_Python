@@ -27,7 +27,7 @@ def position(li):
         if lsum == rsum:
             return i
     return 'N'
-position([1,2,1,1,1,2,3,4,5,5,6,7,2,1,2,2,3])
+position([1,2,1,1,2])
 
 #03.Longest common subsquence
 def lcs(a,b):
@@ -41,8 +41,7 @@ def lcs(a,b):
         if len(sol_a)>len(sol_b):
             return sol_a
         else:
-            return sol_b
-        
+            return sol_b        
 k = 'abcdfkc'
 j = 'badfkcc'
 lcs(k,j)
