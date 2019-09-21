@@ -1,2 +1,2 @@
 # Algorithms_Python
-Learn and Practice Algorithms with Python
+Learn and Practice Algorithms with Python Daily
